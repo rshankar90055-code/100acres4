@@ -14,7 +14,7 @@ import {
   UtensilsCrossed,
   Baby,
   Dog,
-  Elevator,
+  Building
   CheckCircle2
 } from 'lucide-react'
 
@@ -39,8 +39,8 @@ const amenityIcons: Record<string, typeof Car> = {
   'modular kitchen': UtensilsCrossed,
   'kids play area': Baby,
   'pet friendly': Dog,
-  lift: Elevator,
-  elevator: Elevator,
+  lift: Building,
+  elevator: Building,
 }
 
 export function PropertyAmenities({ amenities }: PropertyAmenitiesProps) {
