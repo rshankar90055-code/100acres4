@@ -14,7 +14,7 @@ import {
   UtensilsCrossed,
   Baby,
   Dog,
-  Building
+  Building,
   CheckCircle2
 } from 'lucide-react'
 
